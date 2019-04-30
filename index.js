@@ -4,13 +4,12 @@ const _uniq = require('lodash/uniq')
 const shell = require('shelljs')
 
 const FILE_PATH_BOOKMARKS = '/Users/theo/Library/Application Support/Google/Chrome/Profile 1/Bookmarks'
-const FILE_PATH_PROCESS_LOG = 'process.json'
+const FILE_PATH_ERROR_LOG = 'error-log.json'
+const FILE_PATH_SONGS = 'songs'
 
-const currentFileNames = fs.readdirSync('songs')
-const processLog = JSON.parse(fs.readFileSync(FILE_PATH_PROCESS_LOG))
-const booksmarksFile = JSON.parse(fs.readFileSync(FILE_PATH_BOOKMARKS))
+const bookmarksFile = JSON.parse(fs.readFileSync(FILE_PATH_BOOKMARKS))
+const songsArray = bookmarksFile.roots.bookmark_bar.children[4].children
 
-const songsArray = booksmarksFile.roots.bookmark_bar.children[3].children
 const songs = _uniq(
   songsArray
     .filter(song => song.url != null)
@@ -24,18 +23,24 @@ const getCommand = id =>
   `cd songs && youtube-dl --extract-audio --audio-format mp3 'https://www.youtube.com/watch?v=${id}'`
 
 for (let { id, name } of songs) {
+  const errorLog = JSON.parse(fs.readFileSync(FILE_PATH_ERROR_LOG))
+  const currentFileNames = fs.readdirSync(FILE_PATH_SONGS)
+
   const fileExists = currentFileNames.some(file => file.includes(id))
+  const fileHasError = errorLog[id] != null
 
-  if (fileExists) {
-    console.log(`Skipping ${name} - already exists`)
+  if (fileExists || fileHasError) {
+    console.log(`Skipping ${name}`)
   } else {
-    console.log(name + '-' + id)
-    const code = shell.exec(getCommand(id)).code
-    processLog[id] = code == 0 ? 'downloaded' : 'error'
-    currentFileNames.push(`${name}-${id}.mp3`)
+    const result = shell.exec(getCommand(id))
+    if (result.code !== 0) {
+      errorLog[id] = { error: result.stderr || 'N/A', name }
+    } else {
+      console.log(`${name} downloaded!`)
+    }
   }
-}
 
-fs.writeFileSync('process.json', JSON.stringify(processLog, null, 2))
+  fs.writeFileSync(FILE_PATH_ERROR_LOG, JSON.stringify(errorLog, null, 2))
+}
 
 console.log('✅ Done!')
