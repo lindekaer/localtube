@@ -3,7 +3,7 @@ const queryString = require('query-string')
 const _uniq = require('lodash/uniq')
 const shell = require('shelljs')
 
-const FILE_PATH_BOOKMARKS = '/Users/theo/Library/Application Support/Google/Chrome/Profile 1/Bookmarks'
+const FILE_PATH_BOOKMARKS = '/Users/theo/Library/Application Support/Google/Chrome/Default/Bookmarks'
 const FILE_PATH_ERROR_LOG = 'error-log.json'
 const FILE_PATH_SONGS = 'songs'
 

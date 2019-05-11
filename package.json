@@ -1,0 +1,24 @@
+{
+  "name": "localtube",
+  "version": "1.0.0",
+  "description": "- Use Hasura to store file data - Use Firebase file storge for mp3 - Use Cloud function to download - Implement event pattern (with retry) using Google PubSub",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lindekaer/localtube.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lindekaer/localtube/issues"
+  },
+  "homepage": "https://github.com/lindekaer/localtube#readme",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "query-string": "^6.5.0",
+    "shelljs": "^0.8.3"
+  }
+}
