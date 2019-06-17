@@ -415,6 +415,10 @@
     "error": "WARNING: Unable to extract video title\nERROR: This video is unavailable.\n",
     "name": "Marshmello & Anne-Marie: Friends"
   },
+  "lJtymKPrSuQ": {
+    "error": "WARNING: Unable to extract video title\nERROR: This video is unavailable.\n",
+    "name": "Vince Staples - Get The Fuck Off My Dick (Audio)"
+  },
   "yCOulf56wO0": {
     "error": "ERROR: This video contains content from UMG, who has blocked it in your country on copyright grounds.\n",
     "name": "Post Malone - Better Now (Official Audio)"
@@ -439,6 +443,10 @@
     "error": "WARNING: Unable to extract video title\nERROR: This video is unavailable.\n",
     "name": "Broken Vessels (Amazing Grace) Hillsong UNITED from the Sea of Galilee"
   },
+  "RudIgAJ9Hu0": {
+    "error": "ERROR: This video is not available.\n",
+    "name": "Kind of Lonely"
+  },
   "ZWrV2-KfCeQ": {
     "error": "WARNING: Unable to extract video title\nERROR: This video is unavailable.\n",
     "name": "Alec Benjamin - Outrunning Karma ( Lyrics )"
@@ -450,57 +458,5 @@
   "W5JEr1W8Qmw": {
     "error": "WARNING: Unable to extract video title\nERROR: This video is unavailable.\n",
     "name": "Hey Douglas - Deterjan"
-  },
-  "Ozdlo2-GSuw": {
-    "error": "ERROR: unable to download video data: HTTP Error 403: Forbidden\n",
-    "name": "▶ Liverpool Express - It's a Beautiful Day"
-  },
-  "suG-c_i2fBQ": {
-    "error": "ERROR: unable to download video data: HTTP Error 403: Forbidden\n",
-    "name": "Gojira - Born In Winter [OFFICIAL VIDEO]"
-  },
-  "qXLe8baa_5k": {
-    "error": "ERROR: unable to download video data: HTTP Error 403: Forbidden\n",
-    "name": "Asking Alexandria - Closure (Official Music Video)"
-  },
-  "PtmmlOQnTXM": {
-    "error": "ERROR: unable to download video data: HTTP Error 403: Forbidden\n",
-    "name": "Sona Jobarteh - GAMBIA (Official Video)"
-  },
-  "r5uzc3U8Qhc": {
-    "error": "ERROR: unable to download video data: HTTP Error 403: Forbidden\n",
-    "name": "XS Project - Bochka, Bass, Kolbaser (Бочка,басс,колбасер) [Original]"
-  },
-  "Rwf8eS3isWk": {
-    "error": "ERROR: This video is not available.\n",
-    "name": "Stromae - Alors On Danse (Dubdogz Remix) (Bass Boosted)"
-  },
-  "I2dyKtSbsbM": {
-    "error": "WARNING: Unable to extract video title\nERROR: This video is unavailable.\n",
-    "name": "Red Hot Chili Peppers - Californication LIVE Slane Castle 2003 (Ultra HD)"
-  },
-  "lJtymKPrSuQ": {
-    "error": "WARNING: Unable to extract video title\nERROR: This video has been removed by the user\n",
-    "name": "Vince Staples - Get The Fuck Off My Dick (Audio)"
-  },
-  "pXa48BPQu_4": {
-    "error": "ERROR: unable to download video data: HTTP Error 403: Forbidden\n",
-    "name": "nothing,nowhere.: ruiner [OFFICIAL VIDEO]"
-  },
-  "_UmOY6ek_Y4": {
-    "error": "ERROR: unable to download video data: HTTP Error 403: Forbidden\n",
-    "name": "Jan Hammer - Crockett's Theme (Miami Vice)"
-  },
-  "q0TdCbifXWo": {
-    "error": "ERROR: unable to download video data: HTTP Error 403: Forbidden\n",
-    "name": "why we thugs"
-  },
-  "dwxm9Eh08iw": {
-    "error": "ERROR: unable to download video data: HTTP Error 403: Forbidden\n",
-    "name": "Bones - Cut (Official Video)"
-  },
-  "RudIgAJ9Hu0": {
-    "error": "ERROR: This video is not available.\n",
-    "name": "Kind of Lonely"
   }
 }

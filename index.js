@@ -22,6 +22,8 @@ const songs = _uniq(
 const getCommand = id =>
   `cd songs && youtube-dl --extract-audio --audio-format mp3 'https://www.youtube.com/watch?v=${id}'`
 
+shell.exec(`brew upgrade youtube-dl`)
+
 for (let { id, name } of songs) {
   const errorLog = JSON.parse(fs.readFileSync(FILE_PATH_ERROR_LOG))
   const currentFileNames = fs.readdirSync(FILE_PATH_SONGS)
