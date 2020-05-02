@@ -375,88 +375,76 @@
     "error": "WARNING: Unable to extract video title\nERROR: This video is no longer available because the YouTube account associated with this video has been terminated.\n",
     "name": "Shit Og Chanel Smuk Og Dejlig"
   },
-  "91-WLGjv7dU": {
-    "error": "ERROR: This video contains content from EDM (District), who has blocked it on copyright grounds.\n",
-    "name": "I'll Kill Her (music video)"
-  },
   "9Q7Vr3yQYWQ": {
-    "error": "WARNING: Unable to extract video title\nERROR: This video has been removed for violating YouTube's Terms of Service.\n",
+    "error": "ERROR: 9Q7Vr3yQYWQ: YouTube said: This video has been removed for violating YouTube's policy on spam, deceptive practices, and scams.\nSorry about that.\n",
     "name": "Led Zeppelin - Stairway to Heaven Live (HD)"
   },
   "JIMkiTFSgso": {
-    "error": "WARNING: Unable to extract video title\nERROR: This video is no longer available due to a copyright claim by РЕНЕССАНС / ДЖЕМ.\n",
+    "error": "ERROR: JIMkiTFSgso: YouTube said: This video is unavailable.\nSorry about that.\n",
     "name": "Бутер Бродский - Русское поле EP (2016)"
   },
   "nNcQE0oWpkY": {
-    "error": "WARNING: Unable to extract video title\nERROR: This video is unavailable.\n",
+    "error": "ERROR: nNcQE0oWpkY: YouTube said: This video is unavailable.\nSorry about that.\n",
     "name": "Highly Suspect - My Name Is Human LIVE Buzzfest [HD] 4/15/17"
   },
   "ClE9Ci2guDQ": {
-    "error": "WARNING: Unable to extract video title\nERROR: This video is no longer available because the YouTube account associated with this video has been terminated.\n",
+    "error": "ERROR: ClE9Ci2guDQ: YouTube said: This video is no longer available because the YouTube account associated with this video has been terminated.\nSorry about that.\n",
     "name": "Take That - «Patience» [Brit Awards 2007] [HD]"
   },
   "JMZNt0MBfQg": {
-    "error": "ERROR: This video is not available.\n",
+    "error": "ERROR: JMZNt0MBfQg: YouTube said: This video is not available.\nSorry about that.\n",
     "name": "(1) The War On Drugs - A Deeper Understanding - Full Album 2017"
   },
   "gmhT2EqGmbY": {
-    "error": "WARNING: Unable to extract video title\nERROR: This video is unavailable.\n",
+    "error": "WARNING: Unable to extract video title\nWARNING: unable to extract description; please report this issue on https://yt-dl.org/bug . Make sure you are using the latest version; type  youtube-dl -U  to update. Be sure to call youtube-dl with the --verbose flag and include its complete output.\nERROR: Content Warning\nIf the owner of this video has granted you access, please sign in.\n       This video is private.\n",
     "name": "The War on Drugs Performs \"Pain\""
   },
   "Q3VjaCy5gck": {
-    "error": "ERROR: This video contains content from [Merlin] Beggars, who has blocked it in your country on copyright grounds.\n",
+    "error": "ERROR: Q3VjaCy5gck: YouTube said: This video contains content from Beggars, who has blocked it in your country on copyright grounds.\nSorry about that.\n",
     "name": "Bon Iver - I Can't Make You Love Me / Nick of Time"
   },
-  "IxMHjTMkLHw": {
-    "error": "ERROR: This video is not available.\n",
-    "name": "Bon Iver - Skinny Love"
-  },
   "ZKg3jKEbgqs": {
-    "error": "WARNING: Unable to extract video title\nERROR: This video is unavailable.\n",
+    "error": "WARNING: Unable to extract video title\nWARNING: unable to extract description; please report this issue on https://yt-dl.org/bug . Make sure you are using the latest version; type  youtube-dl -U  to update. Be sure to call youtube-dl with the --verbose flag and include its complete output.\nERROR: Content Warning\nIf the owner of this video has granted you access, please sign in.\n       This video is private.\n",
     "name": "Marshmello & Anne-Marie: Friends"
   },
   "lJtymKPrSuQ": {
-    "error": "WARNING: Unable to extract video title\nERROR: This video is unavailable.\n",
+    "error": "ERROR: lJtymKPrSuQ: YouTube said: This video is unavailable.\nSorry about that.\n",
     "name": "Vince Staples - Get The Fuck Off My Dick (Audio)"
   },
-  "yCOulf56wO0": {
-    "error": "ERROR: This video contains content from UMG, who has blocked it in your country on copyright grounds.\n",
-    "name": "Post Malone - Better Now (Official Audio)"
-  },
   "qGtwhAEPlKw": {
-    "error": "WARNING: Unable to extract video title\nERROR: This video is no longer available due to a copyright claim by PROFIL DE FACE.\n",
+    "error": "ERROR: qGtwhAEPlKw: YouTube said: This video is no longer available due to a copyright claim by a third party.\nSorry about that.\n",
     "name": "Bleu Toucan - Hanoï Café"
   },
   "R6mqn-tEm7k": {
-    "error": "ERROR: This video contains content from TV2 Danmark, who has blocked it on copyright grounds.\n",
+    "error": "ERROR: R6mqn-tEm7k: YouTube said: This video contains content from TV2 Danmark, who has blocked it on copyright grounds.\nSorry about that.\n",
     "name": "Burhan G synger The Second You Sleep af Saybia"
   },
   "e1b3dLITdms": {
-    "error": "ERROR: This video contains content from EDM (District), who has blocked it on copyright grounds.\n",
+    "error": "ERROR: e1b3dLITdms: YouTube said: This video contains content from The District, who has blocked it on copyright grounds.\nSorry about that.\n",
     "name": "Hippie Sabotage - Devil Eyes Extended Version"
   },
   "K_PQ4fRQ5Kc": {
-    "error": "WARNING: Unable to extract video title\nERROR: This video is no longer available due to a copyright claim by WMG.\n",
+    "error": "ERROR: K_PQ4fRQ5Kc: YouTube said: This video is no longer available due to a copyright claim by a third party.\nSorry about that.\n",
     "name": "Fleetwood Mac - Landslide"
   },
   "MlPuR-0XxiA": {
-    "error": "WARNING: Unable to extract video title\nERROR: This video is unavailable.\n",
+    "error": "WARNING: Unable to extract video title\nWARNING: unable to extract description; please report this issue on https://yt-dl.org/bug . Make sure you are using the latest version; type  youtube-dl -U  to update. Be sure to call youtube-dl with the --verbose flag and include its complete output.\nERROR: Content Warning\nIf the owner of this video has granted you access, please sign in.\n       This video is private.\n",
     "name": "Broken Vessels (Amazing Grace) Hillsong UNITED from the Sea of Galilee"
   },
   "RudIgAJ9Hu0": {
-    "error": "ERROR: This video is not available.\n",
+    "error": "ERROR: RudIgAJ9Hu0: YouTube said: This video is not available.\nSorry about that.\n",
     "name": "Kind of Lonely"
   },
   "ZWrV2-KfCeQ": {
-    "error": "WARNING: Unable to extract video title\nERROR: This video is unavailable.\n",
+    "error": "ERROR: ZWrV2-KfCeQ: YouTube said: This video is unavailable.\nSorry about that.\n",
     "name": "Alec Benjamin - Outrunning Karma ( Lyrics )"
   },
   "rt96hT5Sk_U": {
-    "error": "WARNING: Unable to extract video title\nERROR: This video is unavailable.\n",
+    "error": "ERROR: rt96hT5Sk_U: YouTube said: This video is unavailable.\nSorry about that.\n",
     "name": "Ipek ipekcioglu- Uyan Uyan feat. Petra Nachtmanova"
   },
   "W5JEr1W8Qmw": {
-    "error": "WARNING: Unable to extract video title\nERROR: This video is unavailable.\n",
+    "error": "WARNING: Unable to extract video title\nWARNING: unable to extract description; please report this issue on https://yt-dl.org/bug . Make sure you are using the latest version; type  youtube-dl -U  to update. Be sure to call youtube-dl with the --verbose flag and include its complete output.\nERROR: Content Warning\nIf the owner of this video has granted you access, please sign in.\n       This video is private.\n",
     "name": "Hey Douglas - Deterjan"
   }
 }
